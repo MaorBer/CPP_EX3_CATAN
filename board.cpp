@@ -98,4 +98,16 @@ namespace ariel
         }
     }
 
+    bool Board::isPlaceAvailableForSettlement(const std::string &place)
+    {
+        // Check if the place is available for a settlement
+        return true;
+    }
+
+    bool Board::isPlaceAvailableForRoad(const std::string &place)
+    {
+        // Check if the place is available for a road
+        return true;
+    }
+
 }

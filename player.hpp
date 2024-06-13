@@ -1,3 +1,9 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include "board.hpp"
+
+
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 
@@ -23,7 +29,7 @@ namespace ariel {
             
             // Setter functions
         
-            void set_name(std::string new_name);
+
             void placeSettelemnt(std::vector<std::string> places, std::vector<int> placesNum, Board board);
             void placeRoad(std::vector<std::string> places, std::vector<int> placesNum, Board board);
             void rollDice();
