@@ -1,5 +1,5 @@
 
-# Settlers of Catan Simplified Version
+# Settlers of Catan Ex4 in System Programming 2 course in Ariel Uniuversity
 
 ## Overview
 
