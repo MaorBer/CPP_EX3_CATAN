@@ -43,7 +43,7 @@ namespace ariel
         return this->near_by_areas;
     }
 
-    void Tile::set_near_by_areas(const std::initializer_list<Tile *> &near_by_tiles)
+    void Tile::adjacent_tiles(const std::initializer_list<Tile *> &near_by_tiles)
     {
         near_by_areas.clear();
         for (Tile *tile : near_by_tiles)

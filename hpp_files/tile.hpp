@@ -27,7 +27,7 @@ namespace ariel
         void set_terrain(const std::string &_terrain);
         void set_number(int _number);
         const std::set<Tile *> &get_near_by_areas() const;
-        void set_near_by_areas(const std::initializer_list<Tile *> &near_by_tiles);
+        void adjacent_tiles(const std::initializer_list<Tile *> &near_by_tiles);
         Tile &operator=(const Tile &_other);
         bool operator==(const Tile &_other) const;
         bool operator!=(const Tile &_other) const;
